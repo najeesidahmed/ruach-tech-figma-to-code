@@ -29,7 +29,9 @@ export function HeroSection () {
 
                     {/* CTA Buttons */}
                     <div className="flex flex-wrap items center gap-3">
-                        <Button className="px-6">Start Free Trial</Button>
+                        <Button className="px-6">Start Free Trial
+                        <span className="text-sm">→</span>
+                        </Button>
                         <Button variant="outline" className="px-6">Watch Demo</Button>
                     </div>
 
