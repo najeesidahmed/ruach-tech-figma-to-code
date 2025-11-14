@@ -1,4 +1,5 @@
 import { Button } from "../ui/Button";
+import { TickIcon } from "../ui/TickIcon";
 
 export function PricingSection() {
     return (
@@ -25,7 +26,34 @@ export function PricingSection() {
 
                     <p className="mt-2 text-sm text-slate-500">Perfect for small teams</p>
                     <Button className="mt-6 w-full" variant="outline">Get Started</Button>
+
+                    <ul className="mt-6 space-y-3 text-sm text-slate-700">
+                        <li className="flex items-center gap-2">
+                            <TickIcon />
+                            Up to 5 team members
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <TickIcon />
+                            10GB storage
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <TickIcon />
+                            Basic analytics
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <TickIcon />
+                            Email support
+                        </li>
+                    </ul>
                 </div> 
+
+                {/* Professional - Highlighted */}
+                <div className="rounded-xl border-2 border-[#155DFC] bg-white p-8 shadow-lg">
+                    {/* Most Popular Tag */}
+                    <div className="px-3 py-1 text-xs rounded-full font-semibold text-white bg-black shadow-sm">
+                        Most Popular
+                    </div>
+                </div>
             </div>
         </section>
     )
