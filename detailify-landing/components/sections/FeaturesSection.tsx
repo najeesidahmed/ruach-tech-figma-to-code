@@ -1,23 +1,29 @@
+import Image from "next/image";
+
 const features = [
     {
         title: "Lightning Fast",
         description: "Optimized performance wth sub-100ms response times",
-        bg: "#DBEAFE"
+        bg: "#DBEAFE",
+        icon: "/features/thunder.svg"
     },
     {
         title: "Secure by Default",
         description: "Enterprise grade security with end-to-end encryption",
-        bg: "#F3E8FF"
+        bg: "#F3E8FF",
+        icon: "/features/default.svg"
     },
     {
         title: "Advanced Analytics",
         description: "Real-time insights with customizable dashboards",
-        bg: "#DCFCE7"
+        bg: "#DCFCE7",
+        icon: "/features/analytics.svg"
     },
     {
         title: "Team Collaboration",
         description: "Built for teams with real-time collaboration tools",
-        bg: "#FFEDD4"
+        bg: "#FFEDD4",
+        icon: "/features/team.svg"
     }
 ];
 
@@ -45,7 +51,14 @@ export function FeaturesSection () {
                         <div 
                         className="mb-4 inline-flex h-9 w-9 items center justify-center rounded-xl"
                         style={{ backgroundColor: feature.bg}}
-                        />
+                        >
+                            <Image 
+                                src={feature.icon}
+                                alt={feature.title}
+                                width={18}
+                                height={18}
+                            />
+                        </div>
                         <h3 className="text-sm text-slate-900">
                             {feature.title}
                         </h3>
