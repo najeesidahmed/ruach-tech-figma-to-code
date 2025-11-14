@@ -1,19 +1,23 @@
 const features = [
     {
         title: "Lightning Fast",
-        description: "Optimized performance wth sub-100ms response times"
+        description: "Optimized performance wth sub-100ms response times",
+        bg: "#DBEAFE"
     },
     {
         title: "Secure by Default",
-        description: "Enterprise grade security with end-to-end encryption"
+        description: "Enterprise grade security with end-to-end encryption",
+        bg: "#F3E8FF"
     },
     {
         title: "Advanced Analytics",
-        description: "Real-time insights with customizable dashboards"
+        description: "Real-time insights with customizable dashboards",
+        bg: "#DCFCE7"
     },
     {
         title: "Team Collaboration",
-        description: "Built for teams with real-time collaboration tools"
+        description: "Built for teams with real-time collaboration tools",
+        bg: "#FFEDD4"
     }
 ];
 
@@ -31,14 +35,23 @@ export function FeaturesSection () {
             </div>
 
             {/* Feature Cards */}
-            <div className="mt-19 grid gap-4 md:grid-cols-5">
+            <div className="mt-19 grid gap-5 md:grid-cols-4">
                 {features.map((feature) => (
                     <article
                         key={feature.title}
                         className="flex flex-col rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"
                     >
                         {/* Icon Placeholder */}
-                        <div className="mb-4 inline-flex h-9 w-9 items center justify-center rounded-xl" />
+                        <div 
+                        className="mb-4 inline-flex h-9 w-9 items center justify-center rounded-xl"
+                        style={{ backgroundColor: feature.bg}}
+                        />
+                        <h3 className="text-sm text-slate-900">
+                            {feature.title}
+                        </h3>
+                        <p className="mt-2 text-xs leading-relaxed text-slate-600">
+                            {feature.description}
+                        </p>
                     </article>
                 ))}
             </div>
