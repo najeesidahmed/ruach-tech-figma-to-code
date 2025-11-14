@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/Button";
+import { ArrowRight } from "lucide-react";
 
 export function HeroSection () {
     return (
@@ -9,13 +10,13 @@ export function HeroSection () {
                 <div className="space-y-6">
                     {/* Badge */}
                     <div className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-black px-2 py-0.5">
-                        <span className="rounded-full px-2 py-0.5 text-10px text-white">
+                        <span className="rounded-full px-2 py-0.5 text-sm text-white">
                             New Release v2.0
                         </span>
                     </div>
 
                     {/* Headline */}
-                    <h1 className="text-5xl tracking-tight text-slate-900 md:text-5xl leading-tight">
+                    <h1 className="-mt-7 text-5xl tracking-tight text-slate-900 md:text-5xl leading-tight">
                         Build with precision <br />
                         and 
                         <span className="font-bold bg-gradient-to-r from-[#155DFC] to-[#9810FA] bg-clip-text text-transparent"> attention to detail
@@ -28,19 +29,21 @@ export function HeroSection () {
                     </p>
 
                     {/* CTA Buttons */}
-                    <div className="flex flex-wrap items center gap-3">
-                        <Button className="px-6">Start Free Trial</Button>
+                    <div className="flex flex-wrap items center gap-4">
+                        <Button className="px-4 flex items-center gap-4">Start Free Trial
+                        <ArrowRight size={16} strokeWidth={2}/>
+                        </Button>
                         <Button variant="outline" className="px-6">Watch Demo</Button>
                     </div>
 
                     {/* Social Proof */}
-                    <div className="pt-4 flex items-center gap-4">
+                    <div className="pt-4 flex items-center gap-7">
                         {/* Avatars */}
                         <div className="flex -space-x-2">
-                            <div className="h-10 w-10 border-2 border-white rounded-full bg-gradient-to-r from-[#FB64B6] to-[#FF6467]"/>
-                            <div className="h-10 w-10 border-2 border-white rounded-full bg-gradient-to-r from-[#51A2FF] to-[#00D3F2]"/>
-                            <div className="h-10 w-10 border-2 border-white rounded-full bg-gradient-to-r from-[#05DF72] to-[#00D492]"/>
-                            <div className="h-10 w-10 border-2 border-white rounded-full bg-gradient-to-r from-[#C27AFF] to-[#7C86FF]"/>
+                            <div className="h-11 w-11 border-2 border-white rounded-full bg-gradient-to-r from-[#FB64B6] to-[#FF6467]"/>
+                            <div className="h-11 w-11 border-2 border-white rounded-full bg-gradient-to-r from-[#51A2FF] to-[#00D3F2]"/>
+                            <div className="h-11 w-11 border-2 border-white rounded-full bg-gradient-to-r from-[#05DF72] to-[#00D492]"/>
+                            <div className="h-11 w-11 border-2 border-white rounded-full bg-gradient-to-r from-[#C27AFF] to-[#7C86FF]"/>
                         </div>
 
                         {/* Rating text */}
