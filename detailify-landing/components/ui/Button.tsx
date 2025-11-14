@@ -13,10 +13,10 @@ export function Button({
     children,
     ...props
 }: ButtonProps) {
-    const base = "inline-flex items-center justify-center rounded-30 px-5 py-2.5 text-sm font-medium transition shadow-sm";
+    const base = "inline-flex items-center justify-center rounded-xl px-5 py-2.5 text-sm font-bold shadow-sm";
     const styles: Record<Variant, string> = {
-       primary: "bg-black text-white hover:bg-neutral-900",
-       outline: "border border-neutral-200 text-neutral-900 bg-white hover:bg-neutral-50" 
+       primary: "bg-[#030213] text-white",
+       outline: "border border-slate-200 text-slate-900 bg-white hover:bg-slate-50" 
     };
 
     return (
