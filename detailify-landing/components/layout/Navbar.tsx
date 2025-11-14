@@ -24,8 +24,8 @@ export function Navbar() {
                 </div>
 
                 {/*Buttons*/}
-                <div className="flex items-center gap-3">
-                        <button className="text-sm text-neutral-700 hover:text-neutral-900">
+                <div className="flex items-center gap-6">
+                        <button className="text-sm text-neutral-900">
                             Sign In
                         </button>
                         <Button className="px-4 py-2">Get Started</Button>
