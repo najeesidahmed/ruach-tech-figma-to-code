@@ -3,18 +3,19 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  /* Text colours */
+  /* Text Colours */
   --text-white: #ffffff;
   --text-footer-light: #d1d5dc;
   --text-cta-banner: #dbeafe;
   --text-paragraph: #4a5565;
   --text-card-p: #717182;
-  --text-card-title: #0a0a0a;
-  /* Brand Colours*/
+  --text-title: #0a0a0a;
+  /* Brand Colours */
   --brand-blue: #155dfc;
   --brand-purple: #9810fa;
   /* Button Colours */
   --button-dark: #030213;
+  --button-light: #eceef2;
 }
 
 @theme inline {

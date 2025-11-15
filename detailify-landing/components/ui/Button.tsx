@@ -15,9 +15,9 @@ export function Button({
 }: ButtonProps) {
     const base = "inline-flex items-center justify-center rounded-xl px-5 py-2.5 text-sm shadow-sm";
     const styles: Record<Variant, string> = {
-       primary: "bg-[#030213] text-white",
-       secondary: "bg-white text-black",
-       outline: "border border-slate-200" 
+       primary: "bg-[var(--button-dark)] text-[var(--text-white)]",
+       secondary: "bg-[var(--button-light)] text-[var(--button-dark)]",
+       outline: "border border-white" 
     };
 
     return (
