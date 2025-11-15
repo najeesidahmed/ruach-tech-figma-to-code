@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Button } from "../ui/Button";
-import { ArrowRight } from "lucide-react";
 
 export function HeroSection () {
     return (
@@ -31,7 +30,12 @@ export function HeroSection () {
                     {/* CTA Buttons */}
                     <div className="flex flex-wrap items center gap-4">
                         <Button className="px-4 flex items-center gap-4">Start Free Trial
-                        <ArrowRight size={16} strokeWidth={2}/>
+                        <Image 
+                            src="/icons/arrow.svg"
+                            alt=""
+                            width={16}
+                            height={16}
+                        />
                         </Button>
                         <Button variant="outline" className="px-6">Watch Demo</Button>
                     </div>
