@@ -16,7 +16,8 @@ const footerLinks = [
 export function Footer() {
     return (
         <footer className="bg-(--footer-bg)">
-            <div className="mx-auto max-w-6xl px-2 py-12">
+            <div className="w-full h-25"/>
+            <div className="mx-auto max-w-6xl px-2 pb-4">
                 {/* Top row: logo + columns */}
                 <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
                     {/* Brand block */}
