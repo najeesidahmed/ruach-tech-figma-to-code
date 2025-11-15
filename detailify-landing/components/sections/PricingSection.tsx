@@ -16,9 +16,9 @@ export function PricingSection() {
             </div>
 
             {/* Pricing Grid */}
-            <div className="mt-14 grid gap-6 md:grid-cols-3">
+            <div className="mt-14 grid gap-4 md:grid-cols-3 items-center justify-center">
                 {/* Starter */}
-                <Card>
+                <Card className="max-h-[448px] w-full max-w-[320px]">
                     <CardHeader>
                         <h3 className="text-sm font-medium text-slate-900">Starter</h3>
                         <p className="mt-4 text-3xl text-slate-900">
@@ -53,7 +53,7 @@ export function PricingSection() {
                 </Card> 
 
                 {/* Professional - Highlighted */}
-                <Card className="border-2 border-[#155DFC] shadow-2xl">
+                <Card className="min-h-[470px] w-full max-w-[336px] border-2 border-[#155DFC] shadow-2xl">
                     <CardHeader>
                         <div className="inline-flex items center rounded-xl bg-[#030213] px-3 py-1 text-xs text-white">
                             Most Popular
@@ -90,7 +90,7 @@ export function PricingSection() {
                 </Card>
 
                 {/* Custom */}
-                <Card>
+                <Card className="max-h-[448px] w-full max-w-[320px]">
                     <CardHeader>
                         <h3 className="text-sm font-medium text-slate-900">Enterprise</h3>
                         <p className="mt-4 text-3xl text-slate-900">

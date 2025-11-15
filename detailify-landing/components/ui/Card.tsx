@@ -7,7 +7,7 @@ type CardProps = {
 
 export function Card({ children, className = "" }: CardProps) {
     return (
-        <div className={`rounded-xl border bg-white p-8 ${className}`}>
+        <div className={`flex h-full flex-col rounded-xl border bg-white p-8 ${className}`}>
             {children}
         </div>
     );
@@ -18,5 +18,5 @@ export function CardHeader({ children }: { children: React.ReactNode }) {
 }
 
 export function CardContent({ children }: { children: React.ReactNode }) {
-    return <div className="mt-6 spoace-y-4">{children}</div>
+    return <div className="mt-6 space-y-4">{children}</div>
 }
