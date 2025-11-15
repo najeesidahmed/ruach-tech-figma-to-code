@@ -2,12 +2,12 @@ import React from "react";
 
 type CardProps = {
     children: React.ReactNode;
-    classname?: string;
+    className?: string;
 };
 
-export function Card({ children, classname = "" }: CardProps) {
+export function Card({ children, className = "" }: CardProps) {
     return (
-        <div className="{`rounded-xl border bg-white p-8 shadow-sm ${className}">
+        <div className={`rounded-xl border bg-white p-8 shadow-sm ${className}`}>
             {children}
         </div>
     );

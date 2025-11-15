@@ -18,43 +18,58 @@ export function PricingSection() {
             {/* Pricing Grid */}
             <div className="mt-14 grid gap-6 md:grid-cols-3">
                 {/* Starter */}
-                <div className="rounded-xl border border-slate-200 bg-white p-8 shadow-sm">
-                    <h3 className="text-sm font-medium text-slate-900">Starter</h3>
-                    <p className="mt-4 text-3xl text-slate-900">
-                        $29
-                        <span className="text-base text-slate-500">/month</span>
-                    </p>
+                <Card>
+                    <CardHeader>
+                        <h3 className="text-sm font-medium text-slate-900">Starter</h3>
+                        <p className="mt-4 text-3xl text-slate-900">
+                            $29
+                            <span className="text-base text-slate-500">/month</span>
+                        </p>
+                        <p className="text-sm text-slate-500">Perfect for small teams</p>
+                    </CardHeader>
+                        
+                    <CardContent>
+                        <Button className="mt-2 w-full" variant="outline">Get Started</Button>
 
-                    <p className="mt-2 text-sm text-slate-500">Perfect for small teams</p>
-                    <Button className="mt-6 w-full" variant="outline">Get Started</Button>
-
-                    <ul className="mt-6 space-y-3 text-sm text-slate-700">
-                        <li className="flex items-center gap-2">
-                            <TickIcon />
-                            Up to 5 team members
-                        </li>
-                        <li className="flex items-center gap-2">
-                            <TickIcon />
-                            10GB storage
-                        </li>
-                        <li className="flex items-center gap-2">
-                            <TickIcon />
-                            Basic analytics
-                        </li>
-                        <li className="flex items-center gap-2">
-                            <TickIcon />
-                            Email support
-                        </li>
-                    </ul>
-                </div> 
+                        <ul className="mt-6 space-y-3 text-sm text-slate-700">
+                            <li className="flex items-center gap-2">
+                                <TickIcon />
+                                Up to 5 team members
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <TickIcon />
+                                10GB storage
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <TickIcon />
+                                Basic analytics
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <TickIcon />
+                                Email support
+                            </li>
+                        </ul>
+                    </CardContent>
+                </Card> 
 
                 {/* Professional - Highlighted */}
-                <div className="rounded-xl border-2 border-[#155DFC] bg-white p-8 shadow-lg">
-                    {/* Most Popular Tag */}
-                    <div className="inline-flex items center ">
-                        Most Popular
-                    </div>
-                </div>
+                <Card className="border-2 border-[#155DFC] shadow-lg">
+                    <CardHeader>
+                        <div className="inline-flex items center rounded-xl bg-[#030213] px-3 py-1 text-xs text-white">
+                            Most Popular
+                        </div>
+
+                        <h3 className="text-sm font-medium text-slate-900">Professional</h3>
+                        <p className="mt-4 text-3xl text-slate-900">
+                            $79
+                            <span className="text-base text-slate-500">/month</span>
+                        </p>
+                        <p className="text-sm text-slate-500">For growing businesses</p>
+                    </CardHeader>
+                    <CardContent>
+                        <Button className="w-full">Get Started</Button>
+                    </CardContent>
+                </Card>
             </div>
         </section>
     )
