@@ -18,7 +18,7 @@ export function HeroSection () {
                     <h1 className="-mt-7 text-5xl tracking-tight text-slate-900 md:text-5xl leading-tight">
                         Build with precision <br />
                         and 
-                        <span className="font-bold bg-gradient-to-r from-[#155DFC] to-[#9810FA] bg-clip-text text-transparent"> attention to detail
+                        <span className="font-bold bg-linear-to-r from-[#155DFC] to-[#9810FA] bg-clip-text text-transparent"> attention to detail
                         </span>
                     </h1>
 
@@ -37,17 +37,17 @@ export function HeroSection () {
                             height={16}
                         />
                         </Button>
-                        <Button variant="outline" className="px-6">Watch Demo</Button>
+                        <Button variant="outline" className="px-6 text-[#0A0A0A]">Watch Demo</Button>
                     </div>
 
                     {/* Social Proof */}
                     <div className="pt-4 flex items-center gap-7">
                         {/* Avatars */}
                         <div className="flex -space-x-2">
-                            <div className="h-11 w-11 border-2 border-white rounded-full bg-gradient-to-r from-[#FB64B6] to-[#FF6467]"/>
-                            <div className="h-11 w-11 border-2 border-white rounded-full bg-gradient-to-r from-[#51A2FF] to-[#00D3F2]"/>
-                            <div className="h-11 w-11 border-2 border-white rounded-full bg-gradient-to-r from-[#05DF72] to-[#00D492]"/>
-                            <div className="h-11 w-11 border-2 border-white rounded-full bg-gradient-to-r from-[#C27AFF] to-[#7C86FF]"/>
+                            <div className="h-11 w-11 border-2 border-white rounded-full bg-linear-to-r from-[#FB64B6] to-[#FF6467]"/>
+                            <div className="h-11 w-11 border-2 border-white rounded-full bg-linear-to-r from-[#51A2FF] to-[#00D3F2]"/>
+                            <div className="h-11 w-11 border-2 border-white rounded-full bg-linear-to-r from-[#05DF72] to-[#00D492]"/>
+                            <div className="h-11 w-11 border-2 border-white rounded-full bg-linear-to-r from-[#C27AFF] to-[#7C86FF]"/>
                         </div>
 
                         {/* Rating text */}
