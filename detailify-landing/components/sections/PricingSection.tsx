@@ -53,7 +53,7 @@ export function PricingSection() {
                 </Card> 
 
                 {/* Professional - Highlighted */}
-                <Card className="border-2 border-[#155DFC] shadow-xl">
+                <Card className="border-2 border-[#155DFC] shadow-2xl">
                     <CardHeader>
                         <div className="inline-flex items center rounded-xl bg-[#030213] px-3 py-1 text-xs text-white">
                             Most Popular
