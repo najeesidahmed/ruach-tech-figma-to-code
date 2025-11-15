@@ -16,7 +16,8 @@ const footerLinks = [
 export function Footer() {
     return (
         <footer className="bg-(--footer-bg)">
-            <div className="max-w-6xl py-6 md:pt-8">
+            <div className="w-full h-25"/>
+            <div className="mx-auto max-w-6xl px-2 pb-4">
                 {/* Top row: logo + columns */}
                 <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
                     {/* Brand block */}
@@ -27,17 +28,17 @@ export function Footer() {
                                 Detailify
                             </span>
                         </div>
-                        <p className="mt-4 text-[#D1D5DC]">
+                        <p className="mt-4 text-(--text-footer-light)">
                             Building the future of precise, detail-oriented development.
                         </p>
                     </div>
 
                     {/* Link Columns */}
-                    <div className="grid flex-1 gap-8 text-sm sm:grid-cols-3">
+                    <div className="grid flex-1 gap-8 text-[16px] sm:grid-cols-3">
                         {footerLinks.map((section) => (
                             <div key={section.title}>
                                 <h3 className="font-regular text-(--text-white)">{section.title}</h3>
-                                <ul className="mt-4 space-y-2 text-xs text-(--text-footer-light)">
+                                <ul className="mt-4 space-y-2 text-[14px] text-(--text-footer-light)">
                                     {section.links.map((item) => (
                                         <li key={item}>
                                             <a

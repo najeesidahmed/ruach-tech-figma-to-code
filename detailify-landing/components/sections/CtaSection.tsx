@@ -4,7 +4,10 @@ import Image from "next/image"
 export function CtaSection() {
     return (
         <section className="mx-auto max-w-6xl px-6 py-16">
-            <div className="rounded-xl bg-linear-to-r from-[#155DFC] to-[#9810FA] px-10 py-10 text-center text-white">
+            <div className="relative overflow-hidden rounded-[14px] bg-linear-to-r from-[#155DFC] to-[#9810FA] px-10 py-10 text-center text-white">
+                {/* decorative circles */}
+                <div className="pointer-events-none absolute -left-24 -bottom-30 h-56 w-56 rounded-full bg-white/10"/>
+                <div className="pointer-events-none absolute -right-24 -top-30 h-56 w-56 rounded-full bg-white/10"/>
                 <h2 className="text-3xl font-medium">
                     Ready to get started?
                 </h2>
@@ -21,7 +24,7 @@ export function CtaSection() {
                             height={16}
                         />
                     </Button>
-                    <Button variant="outline">Schedule Demos</Button>
+                    <Button variant="outline_white">Schedule Demos</Button>
                 </div>
             </div>
         </section>

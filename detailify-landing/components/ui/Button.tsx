@@ -1,6 +1,6 @@
 import type { ButtonHTMLAttributes, ReactNode } from "react";
 
-type Variant = "primary" | "secondary" | "outline";
+type Variant = "primary" | "secondary" | "outline_black" | "outline_white";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     variant? : Variant;
@@ -13,11 +13,12 @@ export function Button({
     children,
     ...props
 }: ButtonProps) {
-    const base = "inline-flex items-center font-medium justify-center rounded-xl px-5 py-2.5 text-sm shadow-sm";
+    const base = "inline-flex items-center font-medium justify-center rounded-[8px] px-5 py-2.5 text-[14px]";
     const styles: Record<Variant, string> = {
        primary: "bg-(--button-dark) text-(--text-white)",
        secondary: "bg-(--button-light) text-(--button-dark)",
-       outline: "border border-white" 
+       outline_black: "border border-black/10",
+       outline_white: "border border-white"
     };
 
     return (
