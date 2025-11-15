@@ -7,7 +7,7 @@ type CardProps = {
 
 export function Card({ children, className = "" }: CardProps) {
     return (
-        <div className={`flex h-full flex-col rounded-xl border border-black/10 bg-white p-8 ${className}`}>
+        <div className={`flex h-full flex-col rounded-xl bg-white p-8 ${className}`}>
             {children}
         </div>
     );

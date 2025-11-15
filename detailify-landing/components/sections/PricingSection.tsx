@@ -18,7 +18,7 @@ export function PricingSection() {
             {/* Pricing Grid */}
             <div className="mt-14 grid md:grid-cols-3 gap-1 items-center justify-center">
                 {/* Starter */}
-                <Card className="max-h-[448px] w-full max-w-[320px]">
+                <Card className="max-h-[448px] w-full max-w-[320px] border border-black/10">
                     <CardHeader>
                         <h3 className="text-[16px] font-medium text-(--text-title)">Starter</h3>
                         <p className="mt-4 text-[36px] text-(--text-title)">
@@ -90,7 +90,7 @@ export function PricingSection() {
                 </Card>
 
                 {/* Custom */}
-                <Card className="max-h-[448px] w-full max-w-[320px]">
+                <Card className="max-h-[448px] w-full max-w-[320px] border border-black/10">
                     <CardHeader>
                         <h3 className="text-[16px] font-medium text-(--text-title)">Enterprise</h3>
                         <p className="mt-4 text-3xl text-slate-900">
