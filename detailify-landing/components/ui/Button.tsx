@@ -13,7 +13,7 @@ export function Button({
     children,
     ...props
 }: ButtonProps) {
-    const base = "inline-flex items-center font-medium justify-center rounded-[8px] px-5 py-2.5 text-sm";
+    const base = "inline-flex items-center font-medium justify-center rounded-[8px] px-5 py-2.5 text-[14px]";
     const styles: Record<Variant, string> = {
        primary: "bg-(--button-dark) text-(--text-white)",
        secondary: "bg-(--button-light) text-(--button-dark)",
