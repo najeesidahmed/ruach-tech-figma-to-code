@@ -8,7 +8,7 @@ export function Navbar() {
             <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
                 {/* Logo */}
                 <div className="flex items-center gap-2">
-                    <div className="h-7 w-7 rounded-xl bg-gradient-to-br from-[#155DFC] to-[#9810FA]" />
+                    <div className="h-7 w-7 rounded-xl bg-linear-to-br from-[#155DFC] to-[#9810FA]" />
                     <span className="text-sm font-semibold text-black">
                         Detailify
                     </span>

@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Text colours */
+  --text-white: #ffffff;
+  --text-footer-light: #d1d5dc;
 }
 
 @theme inline {
