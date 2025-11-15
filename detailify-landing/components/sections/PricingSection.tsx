@@ -1,5 +1,6 @@
 import { Button } from "../ui/Button";
 import { TickIcon } from "../ui/TickIcon";
+import { Card, CardHeader, CardContent } from "../ui/Card";
 
 export function PricingSection() {
     return (
@@ -50,7 +51,7 @@ export function PricingSection() {
                 {/* Professional - Highlighted */}
                 <div className="rounded-xl border-2 border-[#155DFC] bg-white p-8 shadow-lg">
                     {/* Most Popular Tag */}
-                    <div className="px-3 py-1 text-xs rounded-full font-semibold text-white bg-black shadow-sm">
+                    <div className="inline-flex items center ">
                         Most Popular
                     </div>
                 </div>
