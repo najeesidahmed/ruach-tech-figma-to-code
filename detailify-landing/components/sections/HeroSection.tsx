@@ -8,22 +8,22 @@ export function HeroSection () {
                 {/* Left Side */}
                 <div className="space-y-6">
                     {/* Badge */}
-                    <div className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-black px-2 py-0.5">
-                        <span className="rounded-full px-2 py-0.5 text-sm text-white">
+                    <div className="inline-flex items-center gap-2 rounded-lg bg-(--button-dark) px-2 py-0.5">
+                        <span className="rounded-full px-2 py-0.5 text-[12px] font-medium text-white">
                             New Release v2.0
                         </span>
                     </div>
 
                     {/* Headline */}
-                    <h1 className="-mt-7 text-5xl tracking-tight text-slate-900 md:text-5xl leading-tight">
+                    <h1 className="-mt-7 text-5xl tracking-tight text-(--text-title) md:text-5xl leading-tight">
                         Build with precision <br />
                         and 
-                        <span className="font-bold bg-linear-to-r from-[#155DFC] to-[#9810FA] bg-clip-text text-transparent"> attention to detail
+                        <span className="font-bold bg-linear-to-r from-(--brand-blue) to-(--brand-purple) bg-clip-text text-transparent"> attention to detail
                         </span>
                     </h1>
 
                     {/* Description */}
-                    <p className="max-w-md text-m text-slate-600 leading-relaxed">
+                    <p className="max-w-md text-m text-(--text-paragraph) leading-relaxed">
                         The modern platform for teams who care about <br />quality. Every pixel matters, every interaction counts.
                     </p>
 
@@ -37,7 +37,7 @@ export function HeroSection () {
                             height={16}
                         />
                         </Button>
-                        <Button variant="outline" className="px-6 text-[#0A0A0A]">Watch Demo</Button>
+                        <Button variant="outline" className="px-6 text-(--text-title)">Watch Demo</Button>
                     </div>
 
                     {/* Social Proof */}
@@ -51,15 +51,15 @@ export function HeroSection () {
                         </div>
 
                         {/* Rating text */}
-                        <div className="text-xs text-slate-600">
+                        <div className="text-xs text-(--text-paragraph)">
                             Trusted by 10,000+ developers
                             <div className="flex items-center gap-1">
-                                <span className="text-[#F0B100]">★</span>
-                                <span className="text-[#F0B100]">★</span>
-                                <span className="text-[#F0B100]">★</span>
-                                <span className="text-[#F0B100]">★</span>
-                                <span className="text-[#F0B100]">★</span>
-                                <span className="text-[#F0B100]">4.9/5 rating</span>
+                                <span className="text-(--review-yellow)">★</span>
+                                <span className="text-(--review-yellow)">★</span>
+                                <span className="text-(--review-yellow)">★</span>
+                                <span className="text-(--review-yellow)">★</span>
+                                <span className="text-(--review-yellow)">★</span>
+                                <span className="text-(--review-yellow)">4.9/5 rating</span>
                             </div>
                         </div>
                     </div>
@@ -71,8 +71,8 @@ export function HeroSection () {
                         <Image
                         src="/hero/workspace-hero.png"
                         alt="Workspace"
-                        width={800}
-                        height={600}
+                        width={562}
+                        height={422}
                         className="object-cover"
                         priority
                         />

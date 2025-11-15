@@ -7,31 +7,31 @@ export function PricingSection() {
         <section className="mx-auto max-w-6xl px-6 py-24">
             {/* Heading */}
             <div className="text-center">
-                <h2 className="text-3xl text-neutral-900">
+                <h2 className="text-[40px] text-(--text-title)">
                     Simple, transparent pricing
                 </h2>
-                <p className="mt-2 text-slate-600">
+                <p className="mt-2 text-[20px] text-(--text-paragraph)">
                     Choose the plan that's right for your team
                 </p>
             </div>
 
             {/* Pricing Grid */}
-            <div className="mt-14 grid gap-4 md:grid-cols-3 items-center justify-center">
+            <div className="mt-14 grid md:grid-cols-3 gap-1 items-center justify-center">
                 {/* Starter */}
                 <Card className="max-h-[448px] w-full max-w-[320px]">
                     <CardHeader>
-                        <h3 className="text-sm font-medium text-slate-900">Starter</h3>
-                        <p className="mt-4 text-3xl text-slate-900">
+                        <h3 className="text-[16px] font-medium text-(--text-title)">Starter</h3>
+                        <p className="mt-4 text-[36px] text-(--text-title)">
                             $29
-                            <span className="text-base text-slate-500">/month</span>
+                            <span className="text-[16px] text-(--text-paragraph)">/month</span>
                         </p>
-                        <p className="text-sm text-slate-500">Perfect for small teams</p>
+                        <p className="text-[16px] text-(--text-card-p)">Perfect for small teams</p>
                     </CardHeader>
                         
                     <CardContent>
                         <Button className="mt-2 w-full" variant="outline">Get Started</Button>
 
-                        <ul className="mt-6 space-y-3 text-sm text-slate-700">
+                        <ul className="mt-2 space-y-3 text-sm text-slate-700">
                             <li className="flex items-center gap-2">
                                 <TickIcon />
                                 Up to 5 team members
@@ -55,21 +55,21 @@ export function PricingSection() {
                 {/* Professional - Highlighted */}
                 <Card className="min-h-[470px] w-full max-w-[336px] border-2 border-[#155DFC] shadow-2xl">
                     <CardHeader>
-                        <div className="inline-flex items center rounded-xl bg-[#030213] px-3 py-1 text-xs text-white">
+                        <div className="inline-flex items center rounded-xl bg-(--button-dark) px-3 py-1 text-xs text-white">
                             Most Popular
                         </div>
 
-                        <h3 className="text-sm font-medium text-slate-900">Professional</h3>
-                        <p className="mt-4 text-3xl text-slate-900">
+                        <h3 className="mt-2 text-[16px] font-medium text-(--text-title)">Professional</h3>
+                        <p className="mt-1 text-[36px] text-(--text-title)">
                             $79
-                            <span className="text-base text-slate-500">/month</span>
+                            <span className="text-[16px] text-(--text-paragraph)">/month</span>
                         </p>
-                        <p className="text-sm text-slate-500">For growing businesses</p>
+                        <p className="text-[16px] text-(--text-card-p)">For growing businesses</p>
                     </CardHeader>
                     <CardContent>
                         <Button className="w-full">Get Started</Button>
 
-                        <ul className="mt-5 space-y-3 text-sm text-slate-700">
+                        <ul className="mt-2 space-y-3 text-sm text-slate-700">
                             <li className="flex items-center gap-2">
                                 <TickIcon /> Up to 20 team members
                             </li>
@@ -92,17 +92,17 @@ export function PricingSection() {
                 {/* Custom */}
                 <Card className="max-h-[448px] w-full max-w-[320px]">
                     <CardHeader>
-                        <h3 className="text-sm font-medium text-slate-900">Enterprise</h3>
+                        <h3 className="text-[16px] font-medium text-(--text-title)">Enterprise</h3>
                         <p className="mt-4 text-3xl text-slate-900">
                             Custom
                         </p>
-                        <p className="text-sm text-slate-500">For large organizations</p>
+                        <p className="mt-3 text-[16px] text-(--text-card-p)">For large organizations</p>
                     </CardHeader>
                         
                     <CardContent>
                         <Button className="mt-2 w-full" variant="outline">Contact Sales</Button>
 
-                        <ul className="mt-6 space-y-3 text-sm text-slate-700">
+                        <ul className="mt-2 space-y-3 text-sm text-slate-700">
                             <li className="flex items-center gap-2">
                                 <TickIcon />
                                 Unlimited team members

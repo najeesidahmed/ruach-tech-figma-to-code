@@ -32,10 +32,10 @@ export function FeaturesSection () {
         <section className="mx-auto max-w-6xl px-6 py-16 md:py-20">
             {/* Heading + subheading */}
             <div className="text-center">
-                <h1 className="text-2xl text-slate-900 md:text-4xl">
+                <h2 className="text-[40px] text-(--text-title)">
                     Built for the detail-oriented
-                </h1>
-                <p className="mt-3 text-xl text-slate-600">
+                </h2>
+                <p className="mt-2 text-[20px] text-(--text-paragraph)">
                     Every feature designed with precision and care. Experience the difference <br/> quality makes.
                 </p>
             </div>
@@ -49,7 +49,7 @@ export function FeaturesSection () {
                     >
                         {/* Icon Placeholder */}
                         <div 
-                        className="mb-4 inline-flex h-9 w-9 items center justify-center rounded-xl"
+                        className="mb-4 inline-flex h-12 w-12 items center justify-center rounded-[10px]"
                         style={{ backgroundColor: feature.bg}}
                         >
                             <Image 
@@ -59,10 +59,10 @@ export function FeaturesSection () {
                                 height={18}
                             />
                         </div>
-                        <h3 className="text-sm text-slate-900">
+                        <h3 className="text-[16px] text-(--text-title)">
                             {feature.title}
                         </h3>
-                        <p className="mt-2 text-xs leading-relaxed text-slate-600">
+                        <p className="mt-2 max-w-[180px] text-[16px] leading-relaxed text-(--text-card-p)">
                             {feature.description}
                         </p>
                     </article>

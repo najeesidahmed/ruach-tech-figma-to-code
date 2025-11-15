@@ -4,7 +4,7 @@ import Image from "next/image"
 export function CtaSection() {
     return (
         <section className="mx-auto max-w-6xl px-6 py-16">
-            <div className="rounded-xl bg-linear-to-r from-[#155DFC] to-[#9810FA] px-10 py-10 text-center text-white">
+            <div className="relative overflow-hidden rounded-[14px] bg-linear-to-r from-[#155DFC] to-[#9810FA] px-10 py-10 text-center text-white">
                 <h2 className="text-3xl font-medium">
                     Ready to get started?
                 </h2>
