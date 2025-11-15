@@ -29,7 +29,7 @@ export function PricingSection() {
                     </CardHeader>
                         
                     <CardContent>
-                        <Button className="mt-2 w-full" variant="outline">Get Started</Button>
+                        <Button className="mt-2 w-full" variant="outline_black">Get Started</Button>
 
                         <ul className="mt-2 space-y-3 text-sm text-slate-700">
                             <li className="flex items-center gap-2">
@@ -100,7 +100,7 @@ export function PricingSection() {
                     </CardHeader>
                         
                     <CardContent>
-                        <Button className="mt-2 w-full" variant="outline">Contact Sales</Button>
+                        <Button className="mt-2 w-full" variant="outline_black">Contact Sales</Button>
 
                         <ul className="mt-2 space-y-3 text-sm text-slate-700">
                             <li className="flex items-center gap-2">

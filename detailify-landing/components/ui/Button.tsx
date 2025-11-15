@@ -1,6 +1,6 @@
 import type { ButtonHTMLAttributes, ReactNode } from "react";
 
-type Variant = "primary" | "secondary" | "outline";
+type Variant = "primary" | "secondary" | "outline_black" | "outline_white";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     variant? : Variant;
@@ -17,7 +17,8 @@ export function Button({
     const styles: Record<Variant, string> = {
        primary: "bg-(--button-dark) text-(--text-white)",
        secondary: "bg-(--button-light) text-(--button-dark)",
-       outline: "border border-black/10" 
+       outline_black: "border border-black/10",
+       outline_white: "border border-white"
     };
 
     return (

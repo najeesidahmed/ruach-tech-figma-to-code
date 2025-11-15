@@ -24,7 +24,7 @@ export function CtaSection() {
                             height={16}
                         />
                     </Button>
-                    <Button variant="outline">Schedule Demos</Button>
+                    <Button variant="outline_white">Schedule Demos</Button>
                 </div>
             </div>
         </section>

@@ -37,7 +37,7 @@ export function HeroSection () {
                             height={16}
                         />
                         </Button>
-                        <Button variant="outline" className="px-6 text-(--text-title)">Watch Demo</Button>
+                        <Button variant="outline_black" className="px-6 text-(--text-title)">Watch Demo</Button>
                     </div>
 
                     {/* Social Proof */}
