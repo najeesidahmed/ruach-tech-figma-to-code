@@ -9,7 +9,7 @@ export function HeroSection () {
                 <div className="space-y-6">
                     {/* Badge */}
                     <div className="inline-flex items-center gap-2 rounded-lg bg-(--button-dark) px-2 py-0.5">
-                        <span className="rounded-full px-2 py-0.5 text-[12px] font-medium text-white">
+                        <span className="rounded-lg px-1 py-0.5 text-[12px] font-medium text-white">
                             New Release v2.0
                         </span>
                     </div>
