@@ -68,8 +68,64 @@ export function PricingSection() {
                     </CardHeader>
                     <CardContent>
                         <Button className="w-full">Get Started</Button>
+
+                        <ul className="mt-5 space-y-3 text-sm text-slate-700">
+                            <li className="flex items-center gap-2">
+                                <TickIcon /> Up to 20 team members
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <TickIcon /> 100GB storage
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <TickIcon /> Advanced analytics
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <TickIcon /> Priority support
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <TickIcon /> Custom integrations
+                            </li>
+                        </ul>
                     </CardContent>
                 </Card>
+
+                {/* Custom */}
+                <Card>
+                    <CardHeader>
+                        <h3 className="text-sm font-medium text-slate-900">Enterprise</h3>
+                        <p className="mt-4 text-3xl text-slate-900">
+                            Custom
+                        </p>
+                        <p className="text-sm text-slate-500">For large organizations</p>
+                    </CardHeader>
+                        
+                    <CardContent>
+                        <Button className="mt-2 w-full" variant="outline">Contact Sales</Button>
+
+                        <ul className="mt-6 space-y-3 text-sm text-slate-700">
+                            <li className="flex items-center gap-2">
+                                <TickIcon />
+                                Unlimited team members
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <TickIcon />
+                                Unlimited storage
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <TickIcon />
+                                Enterprise analytics
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <TickIcon />
+                                24/7 dedicated support
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <TickIcon />
+                                Custom SLA
+                            </li>
+                        </ul>
+                    </CardContent>
+                </Card> 
             </div>
         </section>
     )
