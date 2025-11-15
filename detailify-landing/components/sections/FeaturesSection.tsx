@@ -45,7 +45,7 @@ export function FeaturesSection () {
                 {features.map((feature) => (
                     <article
                         key={feature.title}
-                        className="flex flex-col rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"
+                        className="flex flex-col rounded-2xl border-2 border-black/10 bg-white p-4 shadow-sm"
                     >
                         {/* Icon Placeholder */}
                         <div 
