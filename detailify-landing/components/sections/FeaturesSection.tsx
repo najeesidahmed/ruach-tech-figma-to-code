@@ -62,7 +62,7 @@ export function FeaturesSection () {
                         <h3 className="text-[16px] text-(--text-title)">
                             {feature.title}
                         </h3>
-                        <p className="mt-2 max-w-[180px] text-[16px] leading-relaxed text-(--text-card-p)">
+                        <p className="mt-2 max-w-[194px] text-[16px] leading-relaxed text-(--text-card-p)">
                             {feature.description}
                         </p>
                     </article>

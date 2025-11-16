@@ -55,7 +55,7 @@ export function PricingSection() {
                 {/* Professional - Highlighted */}
                 <Card className="min-h-[470px] w-full max-w-[336px] border-2 border-[#155DFC] shadow-2xl">
                     <CardHeader>
-                        <div className="inline-flex items center rounded-xl bg-(--button-dark) px-3 py-1 text-xs text-white">
+                        <div className="inline-flex items-center rounded-xl bg-(--button-dark) px-3 py-1 text-xs text-white">
                             Most Popular
                         </div>
 
