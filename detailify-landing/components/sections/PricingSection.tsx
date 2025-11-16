@@ -16,7 +16,7 @@ export function PricingSection() {
             </div>
 
             {/* Pricing Grid */}
-            <div className="mt-14 grid md:grid-cols-3 gap-1 items-center justify-center">
+            <div className="mt-14 grid md:grid-cols-3 gap-2 justify-items-center">
                 {/* Starter */}
                 <Card className="max-h-[448px] w-full max-w-[320px] border border-black/10">
                     <CardHeader>
