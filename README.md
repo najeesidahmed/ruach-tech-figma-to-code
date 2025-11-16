@@ -19,12 +19,38 @@ The project includes a modular component structure, global design tokens, and po
 
 ```bash
 detailify-landing/
-├── app/               # App Router pages
-├── components/        # Reusable UI components
-├── public/            # Static assets
-├── styles/            # Global CSS and variables
-├── netlify.toml       # Netlify config + Next.js plugin
-├── package.json
+├── .next/ # Next.js build output (auto-generated)
+│ └── dev/ # Dev environment build artifacts
+│
+├── app/ # App Router pages & global layout
+├── components/ # Reusable UI + section components
+│ ├── layout/ # Layout-level components
+│ │ ├── Footer.tsx
+│ │ └── Navbar.tsx
+│ │
+│ ├── sections/ # Major landing page sections
+│ │ ├── CtaSection.tsx
+│ │ ├── FeaturesSection.tsx
+│ │ ├── HeroSection.tsx
+│ │ └── PricingSection.tsx
+│ │
+│ └── ui/ # Small UI components (reusable anywhere)
+│ ├── Button.tsx
+│ ├── Card.tsx
+│ └── TickIcon.tsx
+│
+├── public/ # Static assets (SVGs, images, icons)
+│
+├── netlify.toml # Netlify build settings + plugin config
+├── next-env.d.ts # Next.js TypeScript environment declarations
+├── next.config.ts # Next.js framework config
+│
+├── package.json # Dependencies & scripts
+├── package-lock.json
+│
+├── postcss.config.mjs # PostCSS configuration
+├── eslint.config.mjs # ESLint rules
+└── .gitignore # Git ignore rules
 ```
 
 
