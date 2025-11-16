@@ -1,7 +1,7 @@
 # Detailify Landing Page
 
 A fully responsive, pixel-accurate landing page built with **Next.js 14**, **React**, and **Tailwind CSS**, based on a provided Figma design.  
-The project follows a componenet-driven architecture, making use of modern React patterns such as component composition, prop-driven UI, and array mapping to generate repeated UI elements (e.g., feature cards, pricing lists, footer nav items) in a scalable way.
+The project follows a component-driven architecture, making use of modern React patterns such as component composition, prop-driven UI, and array mapping to generate repeated UI elements (e.g., feature cards, pricing lists, footer nav items) in a scalable way.
 
 ---
 
