@@ -4,7 +4,7 @@ import { Card, CardHeader, CardContent } from "../ui/Card";
 
 export function PricingSection() {
     return (
-        <section className="mx-auto max-w-6xl px-6 py-24">
+        <section className="mx-auto max-w-6xl px-12 py-20">
             {/* Heading */}
             <div className="text-center">
                 <h2 className="text-[40px] text-(--text-title)">
