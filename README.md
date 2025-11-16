@@ -48,7 +48,8 @@ Recurring colors (text, brand, buttons, accents) are defined as **CSS variables*
 
   --button-dark: #030213;
   --button-light: #eceef2;
-}```
+}
+```
 
 ## Key Features
 ### Navbar
