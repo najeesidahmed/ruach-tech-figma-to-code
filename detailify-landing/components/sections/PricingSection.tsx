@@ -4,7 +4,7 @@ import { Card, CardHeader, CardContent } from "../ui/Card";
 
 export function PricingSection() {
     return (
-        <section className="mx-auto max-w-6xl px-6 py-24">
+        <section className="mx-auto max-w-6xl px-12 py-20">
             {/* Heading */}
             <div className="text-center">
                 <h2 className="text-[40px] text-(--text-title)">
@@ -16,7 +16,7 @@ export function PricingSection() {
             </div>
 
             {/* Pricing Grid */}
-            <div className="mt-14 grid md:grid-cols-3 gap-1 items-center justify-center">
+            <div className="mt-14 grid md:grid-cols-3 gap-2 justify-items-center">
                 {/* Starter */}
                 <Card className="max-h-[448px] w-full max-w-[320px] border border-black/10">
                     <CardHeader>
@@ -55,7 +55,7 @@ export function PricingSection() {
                 {/* Professional - Highlighted */}
                 <Card className="min-h-[470px] w-full max-w-[336px] border-2 border-[#155DFC] shadow-2xl">
                     <CardHeader>
-                        <div className="inline-flex items center rounded-xl bg-(--button-dark) px-3 py-1 text-xs text-white">
+                        <div className="inline-flex items-center rounded-xl bg-(--button-dark) px-3 py-1 text-xs text-white">
                             Most Popular
                         </div>
 
