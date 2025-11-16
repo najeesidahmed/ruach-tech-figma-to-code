@@ -34,7 +34,7 @@ detailify-landing/
 │ │ ├── HeroSection.tsx
 │ │ └── PricingSection.tsx
 │ │
-│ └── ui/ # Small UI components (reusable anywhere)
+│ └── ui/ # UI components (reusable anywhere)
 │ ├── Button.tsx
 │ ├── Card.tsx
 │ └── TickIcon.tsx
