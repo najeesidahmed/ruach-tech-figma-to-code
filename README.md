@@ -17,13 +17,15 @@ The project includes a modular component structure, global design tokens, and po
 
 ## Project Structure
 
+```bash
 detailify-landing/
-├── app/ # App Router pages
-├── components/ # Reusable UI components (UI + Section components)
-├── public/ # Static assets (Figma exports, icons, images)
-├── styles/ # Global CSS + custom variables
-├── netlify.toml # Netlify config with Next.js plugin
+├── app/               # App Router pages
+├── components/        # Reusable UI components
+├── public/            # Static assets
+├── styles/            # Global CSS and variables
+├── netlify.toml       # Netlify config + Next.js plugin
 ├── package.json
+```
 
 
 ---
