@@ -91,7 +91,7 @@ Recurring colors (text, brand, buttons, accents) are defined as **CSS variables*
 
 ### Navigate to base folder
 ```
-cd detalify-landing
+cd detailify-landing
 ```
 ### Install dependencies:
 ```
